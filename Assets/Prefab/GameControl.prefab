@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5803520561032465498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5803520561032465492}
+  - component: {fileID: 5803520561032465499}
+  m_Layer: 0
+  m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5803520561032465492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5803520561032465498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5803520561032465499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5803520561032465498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77fe73fa4a56934f8e13c516193ad87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _puzzle:
+  - {fileID: 115774, guid: 872349d274b985647a9619439438de2a, type: 3}
+  - {fileID: 115774, guid: 853983fc04bae8c4492c8346a2f0f0d8, type: 3}
+  - {fileID: 115774, guid: 4f012f2e220ed2e49a5e82c6012b332e, type: 3}
+  - {fileID: 115774, guid: e0785ba75b8a0ea4e94e194f7fbf3345, type: 3}
+  - {fileID: 115774, guid: 0f6dfd98c61a89c488a72049531cbc4f, type: 3}
+  - {fileID: 115774, guid: f0945d9914c246949b84153195b8f36e, type: 3}
+  - {fileID: 115774, guid: c329cc5da668cd24993cc57eed9979c1, type: 3}
+  - {fileID: 115774, guid: 28791a1f4e441d444974828419ca5c19, type: 3}
+  startPosX: -5
+  startPosY: 5.5
+  outX: 2.6
+  outY: 2.6
+  _text: {fileID: 0}
