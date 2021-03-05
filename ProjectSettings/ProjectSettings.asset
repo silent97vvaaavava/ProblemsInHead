@@ -40,8 +40,8 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 183778283bd86294ea24305ffa78fa7d, type: 3}
-    duration: 2
+  - logo: {fileID: 21300000, guid: daaff4ed890fa25448185643b5f36287, type: 3}
+    duration: 4
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
@@ -128,7 +128,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.2
+  bundleVersion: 1.2 DemoProt
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -271,7 +271,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 75e23d064393e4bd8ade63d283be7b9a, type: 3}
+      m_Icon: {fileID: 2800000, guid: f03411137605c514ca06dd02ea3a2317, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
