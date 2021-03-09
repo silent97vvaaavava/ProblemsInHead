@@ -25,6 +25,11 @@ public class Puzzle : MonoBehaviour {
         {
             audioRock.Play();
         }
+        else
+        {
+            audioRock.Stop();
+            audioRock.Play();
+        }
 
 		for(int y = 0; y < 3; y++)
 		{

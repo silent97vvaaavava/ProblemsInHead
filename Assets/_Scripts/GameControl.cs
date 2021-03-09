@@ -25,6 +25,7 @@ public class GameControl : MonoBehaviour
     public static bool win;
 
     [SerializeField] Fungus.Flowchart flowchart;
+    [SerializeField] GameObject buttonHint;
 
     void Start()
     {
@@ -224,8 +225,14 @@ public class GameControl : MonoBehaviour
     {
         if (!win)
         {
-            Debug.Log(win);
-
+            Debug.Log(click);
+            if (click >= 10)
+            {
+                if (!buttonHint.activeSelf)
+                {
+                    buttonHint.SetActive(true);
+                }
+            }
             _text.text = "Ходов:\n" + click;
         }
         else
