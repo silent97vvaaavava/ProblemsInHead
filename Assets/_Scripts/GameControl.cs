@@ -178,10 +178,17 @@ public class GameControl : MonoBehaviour
                     if (grid[x, y].GetComponent<Puzzle>().ID == i)
                         i++;
                 }
-                //else if (x == 1 && y == 0)
-                //{
-                //    i--;
-                //}
+                else 
+                {
+                    if ((x == 1 && y == 0) || (x == 1 && y == 2))
+                    {
+                        i++;
+                    }
+                    else
+                    {
+                        i--;
+                    }
+                }
                 //Debug.Log(i);
             }
         }
