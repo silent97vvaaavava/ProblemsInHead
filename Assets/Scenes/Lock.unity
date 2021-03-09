@@ -465,6 +465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puzzle
       objectReference: {fileID: 0}
+    - target: {fileID: 4469748595552827844, guid: d74a7ed611ca24debaf539356284e365,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4469748595552827896, guid: d74a7ed611ca24debaf539356284e365,
         type: 3}
       propertyPath: m_Pivot.x
