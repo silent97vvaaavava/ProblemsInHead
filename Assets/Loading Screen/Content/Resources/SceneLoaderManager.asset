@@ -38,19 +38,19 @@ MonoBehaviour:
       Backgrounds: []
     - SceneName: MainMenu
       SceneAsset: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
-      DisplayName: MainMenu
+      DisplayName: "\u0413\u043B\u0430\u0432\u043D\u043E\u0435 \u043C\u0435\u043D\u044E"
       Description: 
-      SkipType: 3
-      LoadingType: 0
-      FakeLoadingTime: 2
+      SkipType: 0
+      LoadingType: 1
+      FakeLoadingTime: 5
       Backgrounds: []
     - SceneName: Game
       SceneAsset: {fileID: 102900000, guid: d0a6d4a9438ef774ba520500a8cd66f2, type: 3}
-      DisplayName: Game
+      DisplayName: Problems In head
       Description: 
-      SkipType: 3
-      LoadingType: 0
-      FakeLoadingTime: 2
+      SkipType: 0
+      LoadingType: 1
+      FakeLoadingTime: 5
       Backgrounds: []
   TipList:
     array:
