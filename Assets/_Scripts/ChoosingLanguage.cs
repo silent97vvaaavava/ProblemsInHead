@@ -17,23 +17,25 @@ namespace Assets.SimpleLocalization
 
             if (!PlayerPrefs.HasKey("Language"))
             {
-                PlayerPrefs.SetString("Language", "");
                 switch (Application.systemLanguage)
                 {
-
                     case SystemLanguage.Russian:
                         LocalizationManager.Language = "Russian";
                         PlayerPrefs.SetString("Language", "Russian");
+                        PlayerPrefs.SetInt("Number", 0);
                         break;
                     default:
                         LocalizationManager.Language = "English";
                         PlayerPrefs.SetString("Language", "English");
+                        PlayerPrefs.SetInt("Number", 1);
                         break;
                 }
             } else
             {
                 LocalizationManager.Language = PlayerPrefs.GetString("Language");
             }
+            number = PlayerPrefs.GetInt("Number");
+            Debug.Log(number);
         }
 
         public void SetLocalization()
@@ -47,7 +49,7 @@ namespace Assets.SimpleLocalization
             {
                 number++;
             }
-
+            PlayerPrefs.SetInt("Number", number);
             Debug.Log(PlayerPrefs.GetString("Language"));
         }
 
