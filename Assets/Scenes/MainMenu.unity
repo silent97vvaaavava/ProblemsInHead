@@ -491,6 +491,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467822, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
+      propertyPath: BackgroundAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c1a2e80e45894cbabe944c64351c384, type: 3}
+    - target: {fileID: 11467822, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
       propertyPath: SceneSmoothLoad
       value: 7
       objectReference: {fileID: 0}
@@ -3174,8 +3178,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 519420030}
-        m_MethodName: LoadGame
+      - m_Target: {fileID: 1116199833}
+        m_MethodName: SetLocalization
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3968,6 +3972,10 @@ MonoBehaviour:
     Id: 45863837
   - Name: Creators
     Id: 1817395912
+  - Name: Lock
+    Id: 584921907
+  - Name: UI
+    Id: 541661149
   SaveFolder: {fileID: 102900000, guid: c392831e85f928548b8494fefd912562, type: 3}
 --- !u!4 &1116199832
 Transform:
@@ -3992,10 +4000,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1116199830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf1d26d60166ca40bc5c5f552235e03, type: 3}
+  m_Script: {fileID: 11500000, guid: dc94c5521245dc24fb46c05d80304994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FormattedText: {fileID: 0}
+  setLanguage:
+  - English
+  - Russian
 --- !u!1 &1128419400
 GameObject:
   m_ObjectHideFlags: 0

@@ -41,13 +41,18 @@ namespace Fungus
 
         protected static Dictionary<string, string> localizedStrings = new Dictionary<string, string>();
 
-        #if UNITY_5_4_OR_NEWER
-        #else
+#if UNITY_5_4_OR_NEWER
+#else
         public virtual void OnLevelWasLoaded(int level) 
         {
             LevelWasLoaded();
         }
-        #endif
+#endif
+
+        private void Awake()
+        {
+            activeLanguage = PlayerPrefs.GetString("Language");
+        }
 
         protected virtual void LevelWasLoaded()
         {

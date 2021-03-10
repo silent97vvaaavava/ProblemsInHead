@@ -65,7 +65,7 @@ public class Tools : MonoBehaviour, IPointerEnterHandler
     {
         for(int i = 0; i < valueDescription.Length; i++)
         {
-            valueDescription[i].text = toolValue[i].ToString();
+            valueDescription[i].text = (-toolValue[i]).ToString();
         }
 
         //currentNameTool.text = nameTool.text;
