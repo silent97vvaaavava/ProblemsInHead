@@ -22,7 +22,6 @@ public class ChangeLocalization : MonoBehaviour
         {
             m_InitializeOperation.Completed += InitializeCompleted;
         }
-
     }
 
     void InitializeCompleted(AsyncOperationHandle obj)
@@ -32,22 +31,28 @@ public class ChangeLocalization : MonoBehaviour
         for (int i = 0; i < locales.Count; ++i)
         {
             var locale = locales[i];
-            Debug.Log(locales[i].name);
+            if(LocalizationSettings.SelectedLocaleAsync.Result.name == locales[i].name)
+            {
+                PlayerPrefs.SetInt("Number", i);
+                number = i;
+            }
         }
+        
     }
 
     public void ChangeLanguage()
     {
-        LocalizationSettings.SelectedLocale = locales[number];
-        PlayerPrefs.SetString("Language", locales[number].name);
         if (number >= locales.Count - 1)
         {
             number = 0;
-        }else
+        }
+        else
         {
             number++;
         }
-
+        LocalizationSettings.SelectedLocale = locales[number];
+        PlayerPrefs.SetString("Language", locales[number].name);
+       
         PlayerPrefs.SetInt("Number", number);
     }
 }

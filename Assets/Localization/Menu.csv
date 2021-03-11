@@ -1,5 +1,28 @@
-Key,English,Russian
-NewGame,New game,Новая игра
-Exit,Exit,Выход
-Сreators,Сreators,Авторы
-Language,English,Русский
+﻿Key,Id,Shared Comment,English(en),English(en) Comments,Russian (Russia)(ru-RU),Russian (Russia)(ru-RU) Comments
+"NewGame",74316705792,"","New game","","Новая игра",""
+"Creators",150799839232,"","Creators","","Авторы",""
+"Language",235721912320,"","Language: En","","Язык: Ru",""
+"Exit",960812216320,"","Exit","","Выход",""
+"Creators.Description",46107365142528,"","Game&Narrative Designer: Vladislav Bondarev
+Twitter: @vladane_
+
+
+Developer: Stephan Degtsiarik
+
+
+2D-Artist: mindlesskate","","Game&Narrative Designer: Владислав Бондарев
+Twitter: @vladane_
+
+Developer: Степан Дегтярик
+
+2D-Artist: mindlesskate",""
+"Back",47553527607296,"","Back","","Назад",""
+"Reset",48998066876416,"","Reset","","Сбросить",""
+"Lock.Description",49662553681920,"","The door is closed
+you will have to unlock the lock,
+set all values  to zero!","","Дверь закрыта на замок, 
+чтобы открыть ее, придется
+выставить все значения на ноль!",""
+"Lock.Tittle",50128758960128,"","The lock is hanging on the door","","Замок на двери",""
+"UI.Start",50460834590720,"","Start","","Начать",""
+"Tools.Description",50668695908352,"","Changes the position of the pins of the lock","","Меняет положение пинов замка",""
