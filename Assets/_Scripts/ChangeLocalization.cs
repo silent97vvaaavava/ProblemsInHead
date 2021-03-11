@@ -34,6 +34,7 @@ public class ChangeLocalization : MonoBehaviour
             if(LocalizationSettings.SelectedLocaleAsync.Result.name == locales[i].name)
             {
                 PlayerPrefs.SetInt("Number", i);
+                PlayerPrefs.SetString("Language", locales[number].name);
                 number = i;
             }
         }
