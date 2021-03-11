@@ -1,8 +1,0 @@
-Key,English,Russian
-Lock.Tile,The lock is hanging on the door,Замок на двери
-Lock.Description,"The door is closed
-you will have to unlock the lock,
-set all values   to zero!","Дверь закрыта на замок, 
-чтобы открыть ее, придется
-выставить все значения на ноль!"
-Lock.Pin,Changes the position of the pins of the lock,Меняет положение пинов замка

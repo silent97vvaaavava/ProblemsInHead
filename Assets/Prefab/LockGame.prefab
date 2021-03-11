@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 2137916407}
   - component: {fileID: 2137916409}
   - component: {fileID: 2137916408}
-  - component: {fileID: 3859409743508997573}
+  - component: {fileID: 5682850604258497008}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -317,7 +317,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u0421\u0431\u0440\u043E\u0441\u0438\u0442\u044C"
---- !u!114 &3859409743508997573
+--- !u!114 &5682850604258497008
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -326,10 +326,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 2137916406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: UI.Reset
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:dec3f5a3b78fbf246bb872f5007fc3c9
+    m_TableEntryReference:
+      m_KeyId: 48998066876416
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2137916408}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &338417361864452900
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +612,7 @@ GameObject:
   - component: {fileID: 1328021006736794007}
   - component: {fileID: 7586607510454761159}
   - component: {fileID: 3232244865743970433}
-  - component: {fileID: 6712719073936823770}
+  - component: {fileID: 311093259497910227}
   m_Layer: 5
   m_Name: DescriptionText
   m_TagString: Untagged
@@ -663,7 +684,7 @@ MonoBehaviour:
     \u043E\u0442\u043A\u0440\u044B\u0442\u044C \u0435\u0435 \u043F\u0440\u0438\u0434\u0435\u0442\u0441\u044F,\n\u0432\u044B\u0441\u0442\u0430\u0432\u0438\u0442\u044C
     \u0432\u0441\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u043D\u0430
     \u043D\u043E\u043B\u044C!"
---- !u!114 &6712719073936823770
+--- !u!114 &311093259497910227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -672,10 +693,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 2222524548213373394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: Lock.Description
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:dec3f5a3b78fbf246bb872f5007fc3c9
+    m_TableEntryReference:
+      m_KeyId: 49662553681920
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3232244865743970433}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2316128774341435453
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,7 +1011,7 @@ GameObject:
   - component: {fileID: 5214292715002579917}
   - component: {fileID: 3381648627108280914}
   - component: {fileID: 6527579941439327075}
-  - component: {fileID: 787643201413053611}
+  - component: {fileID: 1464727134561268751}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1037,7 +1079,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u041D\u0430\u0447\u0430\u0442\u044C"
---- !u!114 &787643201413053611
+--- !u!114 &1464727134561268751
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1046,10 +1088,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 2941351370003672105}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: UI.Start
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:dec3f5a3b78fbf246bb872f5007fc3c9
+    m_TableEntryReference:
+      m_KeyId: 50460834590720
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6527579941439327075}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2944010535803796379
 GameObject:
   m_ObjectHideFlags: 0
@@ -3381,7 +3444,7 @@ GameObject:
   - component: {fileID: 8106620136831769307}
   - component: {fileID: 1524790636329798619}
   - component: {fileID: 4553986551486423964}
-  - component: {fileID: 8949316060847598719}
+  - component: {fileID: 525230604884428758}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3449,7 +3512,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u0417\u0430\u043C\u043E\u043A \u043D\u0430 \u0434\u0432\u0435\u0440\u0438"
---- !u!114 &8949316060847598719
+--- !u!114 &525230604884428758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3458,10 +3521,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 6418636337684382947}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: Lock.Tile
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:dec3f5a3b78fbf246bb872f5007fc3c9
+    m_TableEntryReference:
+      m_KeyId: 50128758960128
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4553986551486423964}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6633222442465006061
 GameObject:
   m_ObjectHideFlags: 0
@@ -3551,7 +3635,7 @@ GameObject:
   - component: {fileID: 6923514465533522336}
   - component: {fileID: 456623996638971531}
   - component: {fileID: 4744336371686954784}
-  - component: {fileID: 7862159532603707614}
+  - component: {fileID: 8913500025596736915}
   m_Layer: 5
   m_Name: DescriptionText
   m_TagString: Untagged
@@ -3620,7 +3704,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\u041C\u0435\u043D\u044F\u0435\u0442 \u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435
     \u043F\u0438\u043D\u043E\u0432 \u0437\u0430\u043C\u043A\u0430"
---- !u!114 &7862159532603707614
+--- !u!114 &8913500025596736915
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3629,7 +3713,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 6904114437020897555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: Lock.Pin
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:dec3f5a3b78fbf246bb872f5007fc3c9
+    m_TableEntryReference:
+      m_KeyId: 50668695908352
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4744336371686954784}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

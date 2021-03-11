@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MainMenu_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: dec3f5a3b78fbf246bb872f5007fc3c9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 74316705792
+    m_Localized: New game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150799839232
+    m_Localized: Creators
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235721912320
+    m_Localized: 'Language: En'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 960812216320
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46107365142528
+    m_Localized: 'Game&Narrative Designer: Vladislav Bondarev
+
+      Twitter: @vladane_
+
+
+
+      Developer:
+      Stephan Degtsiarik
+
+
+
+      2D-Artist: mindlesskate'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47553527607296
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48998066876416
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49662553681920
+    m_Localized: 'The door is closed
+
+      you will have to unlock the lock,
+
+      set
+      all values  to zero!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50128758960128
+    m_Localized: The lock is hanging on the door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50460834590720
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50668695908352
+    m_Localized: Changes the position of the pins of the lock
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
