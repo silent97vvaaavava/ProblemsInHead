@@ -177,6 +177,11 @@ public class GameControl : MonoBehaviour
                 {
                     if (grid[x, y].GetComponent<Puzzle>().ID == i)
                         i++;
+                    else
+                    if (grid[x, y].GetComponent<Puzzle>().ID == 0)
+                    {
+                        i++;
+                    }
                 }
                 else 
                 {
@@ -189,10 +194,10 @@ public class GameControl : MonoBehaviour
                         i--;
                     }
                 }
-                //Debug.Log(i);
+               Debug.Log(i);
             }
         }
-        if (i == 9)
+        if (i == 10)
         {
             for (int y = 0; y < 3; y++)
             {
@@ -232,7 +237,7 @@ public class GameControl : MonoBehaviour
     {
         if (!win)
         {
-            Debug.Log(click);
+            //Debug.Log(click);
             if (click >= 10)
             {
                 if (!buttonHint.activeSelf)

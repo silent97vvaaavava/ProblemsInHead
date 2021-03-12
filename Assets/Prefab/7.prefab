@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491fd42a8b5a1e24aba8bbd8c4ff07e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 7
+  ID: 0
   audioRock: {fileID: 4801875235366197010}
 --- !u!61 &-6249700874418258919
 BoxCollider2D:

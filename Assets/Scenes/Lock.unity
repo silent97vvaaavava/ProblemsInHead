@@ -451,31 +451,7 @@ PrefabInstance:
     - target: {fileID: 3185522159882567452, guid: 989ddad006531459387ab9ee3c0ff69a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3232244865743970433, guid: 989ddad006531459387ab9ee3c0ff69a,
-        type: 3}
-      propertyPath: m_Text
-      value: "\u0414\u0432\u0435\u0440\u044C \u0437\u0430\u043A\u0440\u044B\u0442\u0430
-        \u043D\u0430 \u0437\u0430\u043C\u043E\u043A, \n\u0447\u0442\u043E\u0431\u044B
-        \u043E\u0442\u043A\u0440\u044B\u0442\u044C \u0435\u0435,\n\u043F\u0440\u0438\u0434\u0435\u0442\u0441\u044F
-        \u0432\u044B\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432\u0441\u0435
-        \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u043D\u0430 \u043D\u043E\u043B\u044C!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4017037694346011961, guid: 989ddad006531459387ab9ee3c0ff69a,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: d43b4bf11703ede428941aa4d35cf00d, type: 3}
-    - target: {fileID: 4017037694346011961, guid: 989ddad006531459387ab9ee3c0ff69a,
-        type: 3}
-      propertyPath: m_PlayOnAwake
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4642343450401439599, guid: 989ddad006531459387ab9ee3c0ff69a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 989ddad006531459387ab9ee3c0ff69a, type: 3}
@@ -514,7 +490,7 @@ PrefabInstance:
     - target: {fileID: 4469748595552827844, guid: d74a7ed611ca24debaf539356284e365,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4469748595552827896, guid: d74a7ed611ca24debaf539356284e365,
         type: 3}
