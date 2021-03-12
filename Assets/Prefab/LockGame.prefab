@@ -850,7 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0}
+  m_Color: {r: 0.1960784, g: 0.1960784, b: 0.1960784, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1825,11 +1825,11 @@ MonoBehaviour:
   - 3
   - 2
   animationLock: {fileID: 3185522160156103530}
-  animationDescription: {fileID: 1605660985544059435}
   valueDescription:
   - {fileID: 8629729821338627176}
   - {fileID: 1451813513982211267}
   - {fileID: 5366945987715777195}
+  hint: {fileID: 1292426937}
 --- !u!82 &6077774761770082871
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2095,11 +2095,11 @@ MonoBehaviour:
   - 2
   - 2
   animationLock: {fileID: 3185522160156103530}
-  animationDescription: {fileID: 1605660985544059435}
   valueDescription:
   - {fileID: 8629729821338627176}
   - {fileID: 1451813513982211267}
   - {fileID: 5366945987715777195}
+  hint: {fileID: 1292426937}
 --- !u!82 &8182576879348498026
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2482,11 +2482,11 @@ MonoBehaviour:
   - 0
   - -2
   animationLock: {fileID: 3185522160156103530}
-  animationDescription: {fileID: 1605660985544059435}
   valueDescription:
   - {fileID: 8629729821338627176}
   - {fileID: 1451813513982211267}
   - {fileID: 5366945987715777195}
+  hint: {fileID: 1292426937}
 --- !u!82 &7375322078821792235
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3308,7 +3308,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3198007552861496265}
-  - component: {fileID: 1605660985544059435}
+  - component: {fileID: 1292426937}
+  - component: {fileID: 1292426938}
   m_Layer: 5
   m_Name: ValueToolPanel
   m_TagString: Untagged
@@ -3339,22 +3340,37 @@ RectTransform:
   m_AnchoredPosition: {x: -443, y: -250}
   m_SizeDelta: {x: 800, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!111 &1605660985544059435
-Animation:
+--- !u!95 &1292426937
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5169216911077912494}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 0c0ad94f97116417fa987f166ea8b116, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 0c0ad94f97116417fa987f166ea8b116, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f76a1997f5c294147964a4712c4f661e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1292426938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5169216911077912494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9c3775ff46d54a999d3faf430e0ce0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5229091218401378203
 GameObject:
   m_ObjectHideFlags: 0
@@ -3413,7 +3429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0}
+  m_Color: {r: 0.1960784, g: 0.1960784, b: 0.1960784, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3604,7 +3620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0}
+  m_Color: {r: 0.1960784, g: 0.1960784, b: 0.1960784, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3683,7 +3699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0}
+  m_Color: {r: 0.1960784, g: 0.1960784, b: 0.1960784, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:

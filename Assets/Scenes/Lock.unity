@@ -448,11 +448,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LockGame
       objectReference: {fileID: 0}
-    - target: {fileID: 3185522159882567452, guid: 989ddad006531459387ab9ee3c0ff69a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 989ddad006531459387ab9ee3c0ff69a, type: 3}
 --- !u!1001 &4469748594690511514
@@ -490,7 +485,7 @@ PrefabInstance:
     - target: {fileID: 4469748595552827844, guid: d74a7ed611ca24debaf539356284e365,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4469748595552827896, guid: d74a7ed611ca24debaf539356284e365,
         type: 3}

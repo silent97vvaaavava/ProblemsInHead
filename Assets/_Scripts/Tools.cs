@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 /// работа инструментов
 /// </summary>
 
-public class Tools : MonoBehaviour, IPointerEnterHandler
+public class Tools : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [Header("Set in Inspector")]
     [Tooltip("Get value text pin")]
@@ -22,9 +22,8 @@ public class Tools : MonoBehaviour, IPointerEnterHandler
     [SerializeField] Animation animationLock;
 
     [Header("Set component for description")]
-    [SerializeField] Animation animationDescription;
     [SerializeField] Text[] valueDescription;
-    //[SerializeField] Text currentNameTool;
+    [SerializeField] Animator hint; 
 
     private Text nameTool;
 
@@ -56,10 +55,8 @@ public class Tools : MonoBehaviour, IPointerEnterHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         DescriptionValue();
-        Invoke("ShowDescriptionPanel", 0.1f);
+        hint.Play("ShowHintLock");
     }
-
-    
 
     void DescriptionValue()
     {
@@ -67,20 +64,12 @@ public class Tools : MonoBehaviour, IPointerEnterHandler
         {
             valueDescription[i].text = (-toolValue[i]).ToString();
         }
-
-        //currentNameTool.text = nameTool.text;
     }
 
-    void ShowDescriptionPanel()
+    public void OnPointerExit(PointerEventData eventData)
     {
-        if (animationDescription.isPlaying)
-        {
-            animationDescription.Stop();
-            animationDescription.Play();
-        } else
-        {
-            animationDescription.Play();
-        }
+        hint.Play("HideHintLock");
     }
+
 
 }
