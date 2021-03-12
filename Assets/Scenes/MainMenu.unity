@@ -291,7 +291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: NewGame
 --- !u!114 &89895473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,86 +499,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoader 5
       objectReference: {fileID: 0}
-    - target: {fileID: 186202, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11413968, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 5d55737caa6b19446bc033f4868651f9,
-        type: 3}
-    - target: {fileID: 11413968, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11413968, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_FontData.m_MaxSize
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 11467822, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: FadeInSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11467822, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: useTimeScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11467822, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: BackgroundAudio
-      value: 
-      objectReference: {fileID: 8300000, guid: 7c1a2e80e45894cbabe944c64351c384, type: 3}
     - target: {fileID: 11467822, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
       propertyPath: SceneSmoothLoad
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 11467822, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: ShowDescription
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11467822, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: FadeLoadingBarOnFinish
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22409576, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22411256, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 15.099976
-      objectReference: {fileID: 0}
-    - target: {fileID: 22416168, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 515
-      objectReference: {fileID: 0}
-    - target: {fileID: 22416168, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 515
-      objectReference: {fileID: 0}
-    - target: {fileID: 22416168, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22416168, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22457880, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 1304.9738
-      objectReference: {fileID: 0}
-    - target: {fileID: 22457880, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 188.45786
-      objectReference: {fileID: 0}
-    - target: {fileID: 22457880, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22457880, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -79
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 22483402, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
       propertyPath: m_Pivot.x
@@ -664,16 +586,6 @@ PrefabInstance:
     - target: {fileID: 22483402, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3214044876901783561, guid: 0009ccf09c8b9c6428d9895e2f090d1d,
-        type: 3}
-      propertyPath: SceneNameText
-      value: 
-      objectReference: {fileID: 1757784054}
-    - target: {fileID: 3214044876901783563, guid: 0009ccf09c8b9c6428d9895e2f090d1d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0009ccf09c8b9c6428d9895e2f090d1d, type: 3}
@@ -3098,7 +3010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: Exit
 --- !u!114 &804739667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4194,7 +4105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: Language
 --- !u!114 &1128419405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6786,18 +6696,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753165059}
   m_CullTransparentMesh: 0
---- !u!114 &1757784054 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11413968, guid: 0009ccf09c8b9c6428d9895e2f090d1d,
-    type: 3}
-  m_PrefabInstance: {fileID: 170287588}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1764026873
 GameObject:
   m_ObjectHideFlags: 0
@@ -6926,7 +6824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalizationKey: "\u0421reators"
 --- !u!114 &1789864318
 MonoBehaviour:
   m_ObjectHideFlags: 0
