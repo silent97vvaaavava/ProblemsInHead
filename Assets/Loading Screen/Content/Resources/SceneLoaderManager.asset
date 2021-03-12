@@ -49,7 +49,7 @@ MonoBehaviour:
       DisplayName: Problems In head
       Description: 
       SkipType: 0
-      LoadingType: 1
+      LoadingType: 0
       FakeLoadingTime: 5
       Backgrounds: []
   TipList:
